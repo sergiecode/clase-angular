@@ -1,0 +1,16 @@
+<h1>MULTIJUGADOR</h1>
+
+
+<div *ngFor="let item of jueguitos">
+
+    <h2>Juego: {{item.nombre}}</h2>
+    <p>Dificultad: {{item.dificultad}}</p>
+
+</div>
+
+<div *ngIf="juegosDeHijo">
+    <h2>Juego del Hijo: {{juegosDeHijo.nombre}}</h2>
+    <p>Dificultad: {{juegosDeHijo.dificultad}}</p>
+</div>
+
+<app-input (datosHijo)="handlerDatos($event)"></app-input>

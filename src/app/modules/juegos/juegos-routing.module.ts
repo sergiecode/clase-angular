@@ -1,9 +1,9 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AjedrezComponent } from 'src/app/components/ajedrez/ajedrez.component';
+import { AjedrezComponent } from 'src/app/components/juegos/ajedrez/ajedrez.component';
 import { JuegosComponent } from 'src/app/components/juegos/juegos.component';
-import { MultijugadorComponent } from 'src/app/components/multijugador/multijugador.component';
-import { SolitarioComponent } from 'src/app/components/solitario/solitario.component';
+import { MultijugadorComponent } from 'src/app/components/juegos/multijugador/multijugador.component';
+import { SolitarioComponent } from 'src/app/components/juegos/solitario/solitario.component';
 
 const routes: Routes = [
   {

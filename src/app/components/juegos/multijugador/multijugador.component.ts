@@ -8,9 +8,15 @@ import { Component, Input, OnInit } from '@angular/core';
 export class MultijugadorComponent implements OnInit {
   @Input('juegos') jueguitos:any
 
+  juegosDeHijo:any
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  handlerDatos(e:any){
+    this.juegosDeHijo = e
   }
 
 }

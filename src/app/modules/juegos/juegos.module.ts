@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { JuegosRoutingModule } from './juegos-routing.module';
-import { SolitarioComponent } from 'src/app/components/solitario/solitario.component';
+import { SolitarioComponent } from 'src/app/components/juegos/solitario/solitario.component';
 
 
 @NgModule({
