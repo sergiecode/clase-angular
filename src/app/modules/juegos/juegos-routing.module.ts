@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AjedrezComponent } from 'src/app/components/juegos/ajedrez/ajedrez.component';
 import { JuegosComponent } from 'src/app/components/juegos/juegos.component';
